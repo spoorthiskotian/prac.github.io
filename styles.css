@@ -1,0 +1,133 @@
+body, h1, h2, p, label, input, button {
+    margin: 0;
+    padding: 0;
+    }
+    /* Global Styles */
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(244, 220, 188);
+    height: 100%;
+    background-image: url("ecommerce.jpg");
+    }
+    header {
+    background-color: #e89898;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    }
+    main {
+    padding: 2rem;
+    text-align: center;
+    }
+    footer {
+    text-align: center;
+    padding: 1rem 0;
+    
+    color: #fff;
+    }
+    /* Forms */
+    .signup-form, .signin-form {
+    max-width: 300px;
+    margin: 0 auto;
+    }
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    }
+    button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #6ad494;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #555;
+    }
+    .signup-form {
+        box-sizing: border-box;
+        width: 80%; 
+        margin: 0 auto; 
+        padding: 20px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        background-color: #d49c9c;
+    }
+    .signin-form{
+        box-sizing: border-box;
+        width: 80%; 
+        margin: 0 auto; 
+        padding: 20px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        background-color: #d49c9c;
+    }
+    .button-box {
+        display: inline-block;
+        background-color: #3498db; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    
+    .button-box a {
+        color: white;
+        text-decoration: none; 
+    }
+    .cde{
+        background-color:none;
+        color: #555;
+    }
+    .text-box {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        text-align: center;
+        width: 70%;
+        max-width: 600px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    .image-grid {
+        display: flex;
+        justify-content: center;
+        margin-top: 344px;
+      }
+      
+      .image-box {
+        margin: 10px;
+      }
+      
+      .image-box img {
+        width: 290px;
+        height: 363px;
+        border: 6px solid #007bff;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+      }
+      
+      .image-box img:hover {
+        transform: scale(1.1);
+      }
+      .foot{
+        color: black;
+        font-weight: bold;
+      }
+      h1{
+        color: white;
+        
+      }
